@@ -72,7 +72,7 @@ public class CustomKeyBoard extends View {
 		activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 	}
 
-	public void showKeyboard(EditText et_password) {
+	public void showKeyboard(final EditText et_password) {
 
 		this.et_password = et_password;
 
@@ -108,7 +108,10 @@ public class CustomKeyBoard extends View {
 		container = (LinearLayout) popView.findViewById(R.id.llkeyboard);
 
 		switchView(0);
-		// container.addView(keyboardsView);
+		
+		
+		
+	    
 	}
 
 	public void switchView(int index) {
@@ -154,6 +157,15 @@ public class CustomKeyBoard extends View {
 				int index = et_password.getSelectionEnd();
 				if (keyboardIndex == 0 || keyboardIndex == 2) {
 					str = ((Button) v).getText().toString().replaceAll(" ", "");
+					if(str.equals("sin")){
+						str="sin(";
+					}else if(str.equals("log")){
+						str="log(";
+					}
+					
+					
+					
+					
 				} else {
 					if (isCapital) {
 						str = ((Button) v).getText().toString().toUpperCase();
@@ -163,12 +175,18 @@ public class CustomKeyBoard extends View {
 				}
 
 				StringBuffer strNew = new StringBuffer(et_password.getText().toString());
-				str = strNew.insert(index, str).toString();
-
-				index++;
-
+				
+				
+				
+			//	str = strNew.insert(index, str).toString();
+              
+				
+                str=strNew.append(str).toString();
+                
+                index=str.length();
 				et_password.setText(str);
 				et_password.setSelection(index);
+				//index=index+str.length();
 			}
 		}
 
