@@ -35,6 +35,8 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				
 				Log.i(TAG, "fosus:"+hasFocus);
+				
+				
 				if (hasFocus) {
 					customKeyBoard.showKeyboard(et1);
 				} else {
