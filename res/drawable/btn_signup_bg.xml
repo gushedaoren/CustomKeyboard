@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:state_pressed="true"
-		android:drawable="@color/BG_BTN_GREEN_A" />
-	<item android:state_focused="true"
-		android:drawable="@color/BG_BTN_GREEN_A" />
-	<item android:drawable="@color/BG_BTN_GREEN" />
-</selector> 

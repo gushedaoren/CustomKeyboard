@@ -1,6 +1,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" android:background="@drawable/corner_bg_white_transprent" android:focusable="true" android:focusableInTouchMode="true">
+    android:layout_height="fill_parent"  android:focusable="true" android:focusableInTouchMode="true">
     
     <ViewFlipper 
         android:id="@+id/viewFlipper1"
@@ -13,36 +13,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
 
-            <RelativeLayout
-                android:id="@+id/RelativeLayout1"
-                android:layout_width="match_parent"
-                android:layout_height="44dip"
-                android:visibility="gone"
-                android:orientation="vertical" android:background="@drawable/bar1">
-
-                <Button
-                    android:id="@+id/btn_pre"
-                    android:layout_width="60dip"
-                    android:layout_height="30dip"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="10dip"
-                    android:text="@string/button_item_pre" android:layout_centerVertical="true" android:background="@drawable/next" android:textSize="14sp" android:textColor="@color/WHITE" android:textStyle="bold" android:visibility="gone"/>
-
-                <Button
-                    android:id="@+id/btn_next"
-                    android:layout_width="60dip"
-                    android:layout_height="30dip"
-                    android:layout_toRightOf="@+id/btn_pre"
-                    android:text="@string/button_item_next" android:layout_centerVertical="true" android:layout_marginLeft="10dip" android:background="@drawable/next" android:textColor="@color/WHITE" android:textSize="14sp" android:textStyle="bold" android:visibility="gone"/>
-
-                <Button
-                    android:id="@+id/btn_finish"
-                    android:layout_width="50dip"
-                    android:layout_height="30dip"
-                    android:layout_alignParentRight="true"
-                    android:text="@string/button_item_finish" android:layout_centerVertical="true" android:layout_marginRight="10dip" android:background="@drawable/finish_btn_bg" android:textColor="@color/BLACK" android:textSize="14sp" android:textStyle="bold"/>
-
-            </RelativeLayout>
+ 
 
             <LinearLayout
                 android:id="@+id/linearLayout2"
@@ -85,37 +56,10 @@
                         android:layout_height="38dip"
                         android:layout_marginRight="5dip"
                         android:layout_weight="1"
-                        android:background="@drawable/tab_bg" android:layout_marginTop="1dip">
+                        android:orientation="horizontal"
+                         android:layout_marginTop="1dip">
 
-                        <Button
-                            android:id="@+id/btn_number"
-                            android:layout_width="65dip"
-                            android:layout_height="fill_parent"
-                            android:layout_weight="1"
-                            android:background="@drawable/keyboard_number"
-                            android:text="@string/keyboard_digital"
-                            android:textSize="18sp"
-                            android:textColor="@color/WHITE"/>
-
-                        <Button
-                            android:id="@+id/btn_character"
-                            android:layout_width="65dip"
-                            android:layout_height="fill_parent"
-                            android:layout_weight="1"
-                            android:text="@string/keyboard_character"
-                            android:textColor="@color/BLACK"
-                            android:textSize="18sp"
-                            android:background="@drawable/key_btn_normal"/>
-
-                        <Button
-                            android:id="@+id/btn_symbol"
-                            android:layout_width="65dip"
-                            android:layout_height="fill_parent"
-                            android:layout_weight="1"
-                            android:background="@drawable/key_btn_normal"
-                            android:text="@string/keyboard_flag"
-                            android:textSize="18sp"
-                            />
+                       
                     </LinearLayout>
 
                     <Button
@@ -123,7 +67,7 @@
                         android:layout_width="66dip"
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/enterbtnbg"
+                        
                         android:text="@string/button_ok"
                         android:textColor="@color/WHITE"
                         android:textSize="18sp"
