@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name = "header_margin_top">20dip</dimen>
+    
+    <string name="hello">Hello World, ImPayActivity!</string>
+    <string name="app_name">即付宝V3</string>
+
+    
+    <string name = "text_version">版本{0}</string>
+    <string name = "text_copyright">上海即富信息技术服务有限公司</string>
+    <string name="git_tag_number">0000 000</string>
+    
+    <string name="keyboard_clear">清除</string>
+    <string name="keyboard_digital">数字</string>
+    <string name="keyboard_character">字母</string>
+    <string name="keyboard_flag">符号</string>
+    
+    <string name = "button_ok">确定</string>
+    <string name = "button_back">返回</string>
+    <string name = "button_confirm_btc">确认</string>
+    <string name = "button_retry">重试</string>
+    <string name = "button_get_validate_code">获取短信校验码</string>
+    <string name = "button_commit">立即注册</string>
+    <string name = "button_train_protocol">请阅读《购票须知》</string>
+    <string name = "button_protocol">服务协议</string>
+    <string name = "button_prev">上一步</string>
+    <string name = "button_next">下一步</string>
+    <string name = "button_more">更多</string>
+    <string name = "button_add">新增</string>
+    <string name = "button_save">保存</string>
+    <string name = "button_confirm">选择付款方式</string>
+    <string name = "button_i_want_pay">我要付款</string>
+    <string name = "button_wait_to_pay">待付款</string>
+    <string name = "button_item_pre">上一项</string>
+    <string name = "button_item_next">下一项</string>
+    <string name = "button_item_finish">完成</string> 
+    <string name = "button_scan">扫描</string>
+    <string name = "button_cancel">取消</string>
+    <string name = "button_login">登   录</string>
+    <string name = "button_register">立即注册</string>
+	<string name = "button_credit_card">+新增信用卡</string>
+	<string name = "button_transfer">+增加新收款账户</string>
+	<string name = "button_pay_loan">+增加新收款账户</string>
+	<string name = "button_btc">+新增提款银行账户</string>
+	<string name = "button_buy_swiper">购买刷卡器</string>
+	<string name = "button_swiper_card">刷卡</string>
+	<string name = "button_go_on">继续还款</string>
+	<string name = "button_buy_now">现在购买</string>
+	<string name = "button_close">关闭</string>
+	<string name = "button_incom">收入</string>
+    <string name = "button_outcom">支出</string>
+	<string name = "button_recharge">立即充值</string>
+	<string name = "button_confrim_to_pay">确认支付</string>
+	<string name = "button_save_and_recharge">保存并还款</string>
+	<string name = "button_begin_repay">开始还款</string>
+	<string name = "button_update">刷新</string>
+	<string name = "button_user_notice">用户须知</string>
+	<string name = "button_click_to_scan">点击扫码</string>
+	<string name = "button_upload">上传</string>
+	<string name = "button_intro_start">开始体验</string>
+	<string name = "button_reswipe">继续查询</string>
+	<string name = "button_repay">重新支付</string>
+
+	
+    <string name="title_login">登录</string>
+    <string name="title_register">注册</string>
+    <string name="title_train_protocol">购票须知</string>
+    <string name="title_protocol">服务协议</string>
+    <string name="title_modify_password">修改密码</string>
+    <string name="title_recharge">充值</string>
+    <string name="title_mobile_btc">提款</string>
+    <string name="title_mobile_recharge">手机充值</string>
+    <string name="title_query_balance">余额查询</string>
+    <string name="title_query_bankcard_balance">银行卡查询</string>
+    <string name="title_fill_user_info">实名认证</string>
+    <string name="title_business_to_cash">提款</string>
+    <string name="title_business_to_cash_acc">提款账户</string>
+    <string name="title_recv_account">收款账户列表</string>
+    <string name="title_pay_loan_account">还贷账户列表</string>
+    <string name="title_transfer_account">添加还款信息</string>
+    <string name="title_recv_account_info">账户记录</string>
+    <string name="title_transaction_record">交易明细</string>
+    <string name="title_card_manage">绑定卡管理</string>
+    <string name="title_card_list">绑定卡列表</string>
+    <string name="title_card_balance">余额</string>
+    <string name="title_card_unbind">解绑</string>
+    <string name="title_card_union">合并</string>
+    <string name="title_card_bind">卡管理</string>
+    <string name="title_alipay_recharge">支付宝直充</string>
+    <string name="title_common_pay_order">交易确认</string>
+    <string name="title_pay_by_jfpal_account">账户支付</string>
+    <string name="title_pay_by_temp_account">合并账户支付</string>
+    <string name="title_pay_by_bank_card">刷卡支付</string>
+    <string name="title_pay_by_prepay_card">快捷支付</string>
+    <string name="title_im_recv">即收款</string>
+    <string name="title_im_pay">个人付款</string>
+    <string name="title_transfer_amount">添加转账账户</string>
+    <string name="title_transfer_money">转账金额</string>
+    <string name="title_credit_card_repay">信用卡还款</string>
+    <string name="title_credit_card_list">信用卡列表</string>
+    <string name="title_im_repay">即还款</string>
+    <string name="title_purchase_swapper">购买刷卡器</string>
+    <string name="title_pay_bill">公用事业缴费</string>
+    <string name="title_public_utility_item">缴费项目</string>
+    <string name="title_credit_card_bind">新增信用卡</string>
+    <string name="title_loan_repay">个人还贷</string>
+    <string name="title_wallet_register">钱包注册</string>
+    <string name="title_order">订单</string>
+    <string name="title_transaction_detail">交易详情</string>
+    <string name="title_account_recharge">账户充值</string>
+    <string name="title_notice">消息</string>
+    <string name="title_push">推送消息</string>
+    <string name="title_choose_bank_branch">选择支行</string>
+    <string name="title_choose_bank_head">选择银行</string>
+    <string name="title_introduce">用户须知</string>
+    <string name="title_query_order">订单查询</string>
+    <string name="title_query_alipay_order">淘宝订单</string>
+    <string name="title_holder_sign">持卡人签名</string>
+    <string name = "title_sales_slip">签购单</string>
+    <string name = "title_real_name_auth">实名认证</string>
+    
+    <string name = "title_jfpal_account_recharge">账户充值</string>
+    
+    <string name = "hint_phone_number">手机号码</string>
+    <string name = "hint_phone_number_wrong">手机号码有误</string>
+    <string name = "hint_phone_number_please">请输入手机号码</string>
+    <string name = "hint_password">登录密码</string>
+    <string name = "hint_password_englist">Password</string>
+    <string name = "hint_password_register">设置密码</string>
+    <string name = "hint_password_register_please">请输入设置密码</string>
+    <string name = "hint_password_confirm">确认密码</string>
+    <string name = "hint_password_confirm_please">请输入确认密码</string>
+    <string name = "hint_recommend_number">推荐人即付宝账号(选输)</string>
+    <string name = "hint_validate_code">短信校验码</string>
+    <string name = "hint_get_validate_code_first">请先获取短信校验码</string>
+    <string name = "hint_original_password">原密码</string>
+    <string name = "hint_original_password_lengh_error">原密码不能少于6位</string>
+    <string name = "hint_new_password_lengh_error">新密码不能少于6位</string>
+    <string name = "hint_new_password">新密码</string>
+    <string name = "hint_confirm_password">确认新密码</string>
+    <string name = "hint_password_not_match">两次输入的密码不一致</string>
+    <string name = "hint_password_new_the_same">新密码不能与旧密码一致</string>
+    <string name = "hint_real_name">真实姓名</string>
+    <string name = "hint_real_name_input_please">请输入真实姓名</string>
+    <string name = "hint_identity">身份证号码</string>
+    <string name = "hint_identity_right">正确的身份证号码</string>
+    <string name = "hint_identity_please">请输入身份证号码</string>
+    <string name = "hint_email">电子邮件地址</string>
+    <string name = "hint_btc_amount">提现金额</string>
+    <string name = "hint_btc_amount_please">请输入提现金额</string>
+    <string name = "hint_btc_type_general">普通提现</string>
+    <string name = "hint_btc_type_quick">快速提现</string>
+    <string name = "hint_bank_name">收款银行名称</string>
+    <string name = "hint_recv_bank_account">银行卡号</string>
+    <string name = "hint_recv_bank_account_p">输入收款银行卡号</string>
+    <string name = "hint_recv_bank_account_confirm">确认卡号</string>
+    <string name = "hint_recv_bank_account_confirm_p">再次输入收款卡号</string>
+    <string name = "text_bank_province">省</string>
+    <string name = "text_bank_city">市</string>
+    <string name = "hint_bank_province">开户行省</string>
+    <string name = "hint_bank_province_p">选择开户行省</string>
+    <string name = "hint_bank_bank">开户行</string>
+    <string name = "hint_bank_real_name">开户姓名</string>
+    <string name = "hint_bank_real_name_p">输入开户姓名</string>
+    <string name = "hint_bank_city">开户行市</string>
+    <string name = "hint_bank_city_p">选择开户行市</string>
+    <string name = "hint_bank_distribute">开户支行</string>
+    <string name = "hint_bank_distribute_p">选择开户支行</string>
+    <string name = "hint_add_bank_notice">注意！请认真填写信息,一经填写不可变更。</string>
+    <string name = "hint_card_id">绑定卡卡号</string>
+    <string name = "hint_card_password">绑定卡密码</string>
+    <string name = "hint_pay_phone_number">付款人手机号</string>
+    <string name = "hint_recv_amount">收款金额</string>
+    <string name = "hint_recv_reason">收款理由</string>
+    <string name = "hint_recv_name">收款人:</string>
+    <string name = "hint_recv_phone_number">收款人手机号</string>
+    <string name = "hint_recv_phone_number_confirm">确认收款人手机号</string>
+    <string name = "hint_pay_amount">付款金额</string>
+    <string name = "hint_pay_amount_please">请输入付款金额</string>
+    <string name = "hint_pay_method">付款方式</string>
+    <string name = "hint_pay_method_please">请选择付款方式</string>
+    <string name = "hint_pay_reason">付款理由</string>
+    <string name = "hint_pay_reason_please">请选择付款理由</string>
+    <string name = "pay_amount_limit_over">金额超限</string>
+    <string name = "hint_transfer_amount">还款金额</string>
+    <string name = "hint_transfer_amount_please">输入金额</string>
+    <string name = "hint_repay_amount">还款金额</string>
+    <string name = "hint_please_choose_bank_info_first">请先选择相关的银行信息</string>
+    <string name = "hint_contact_name">收货人姓名</string>
+    <string name = "hint_contact_address">收货人地址</string>
+    <string name = "hint_contact_postal">收货邮编</string>
+    <string name = "hint_contact_tel">联系电话</string>
+    <string name = "hint_bill_code">缴费单条码</string>
+    <string name = "hint_bill_amount">缴费单金额</string>
+    <string name = "hint_name">姓名</string>
+    <string name = "hint_credit_card_id">输入信用卡卡号</string>
+    <string name = "hint_credit_card_id_confirm">确认信用卡卡号</string>
+    <string name = "hint_credit_card_id_not_match">两次输入的信用卡卡号不一致</string>
+    <string name = "hint_auth_is_expire">登录状态失效,请重新登录</string>
+    <string name = "hint_function_not_support">此功能暂不支持</string>
+    <string name = "hint_bank_card_password">密码:</string>
+    <string name = "hint_call_service_phone">是否需要拨打客服电话?</string>
+    <string name = "hint_delete">是否确定要删除该记录?</string>
+    <string name = "hint_logout">是否注销当前账户?</string>
+    <string name = "hint_recharge_phone_number">充值手机号码</string>
+    <string name = "hint_confirm_phone_number">确认充值手机号码</string>
+    <string name = "hint_choose_repayment_method">请选择一种还款方式</string>
+    <string name = "hint_msg_checking_swiper">正在检测刷卡器，请稍候...</string>
+    <string name = "hint_msg_check_swiper_error">检测设备失败</string>
+    <string name = "hint_msg_device_unmatch_with_setting">当前设备与设置设备类型不符</string>
+    <string name = "hint_msg_insert_swiper_first">未检测到刷卡器，请将手机刷卡器插入耳机孔，或点击“现在购买”。</string>
+    <string name = "hint_msg_connecting">连接中,请稍候</string>
+    <string name = "hint_msg_please_swiper">磁条面向用户，贴紧刷卡槽底部平稳匀速刷过。指示灯熄灭即刷卡成功。</string>
+    <string name = "hint_msg_time_out">操作超时，请重新刷卡</string>
+    <string name = "hint_jisheng_account">收款ID</string>
+   	<string name = "hint_repay_last_day_early_than_today">还款日不能早于今天</string>
+   	<string name = "hint_user_identity">用户证件号码</string>
+   	<string name = "hint_user_identity_wrong">用户证件号码有误</string>
+   	<string name = "hint_company_name">企业名称</string>
+   	<string name = "hint_company_code">企业组织机构代码</string>
+   	<string name = "hint_company_address">企业地址</string>
+   	<string name = "hint_company_email">企业邮箱</string>
+   	<string name = "hint_agent_name">法人姓名</string>
+   	<string name = "hint_agent_identity">法人证件号</string>
+   	<string name = "hint_company_contact_name">企业联系人姓名</string>
+   	<string name = "hint_company_contact_phone">企业联系人电话</string>
+   	<string name = "hint_recharge_amount">充值金额</string>
+   	<string name = "hint_alipay_num">交易号</string>
+   	<string name = "hint_alipay_amount">订单金额</string>
+   	<string name = "hint_alipay_no_pay">订单不可支付</string>
+    
+   	
+   	
+    <string name = "text_auth_pass">认证通过</string>
+    <string name = "text_authing">认证中...</string>
+    <string name = "text_auth_urgent">加急认证中...</string>
+    
+    
+    <string name = "text_welcome_back">{0}欢迎回来,消息({1})</string>
+    <string name = "text_more_server_tele">拨打热线：{0}</string>
+    <string name = "text_more_submit_suggestion">留下宝贵建议</string>
+    <string name = "text_more_check_version">检查更新</string>
+    <string name = "text_more_share">分享</string>
+    <string name = "text_more_swiper">刷卡器设置</string>
+    <string name = "text_more_about">版本信息</string>
+    <string name = "text_more_follow">关注微信</string>
+    <string name = "text_more_contact">联系客服</string>
+    <string name = "text_more_switch_user">重新登录/切换账户</string>
+    <string name = "text_more_contact_info">服务网站：{0}\n服务热线：{1}</string>
+    <string name = "text_more_update_version_info">现在已经是最新版本</string>
+    <string name = "text_more_suggestion_info_success">发送成功我们会尽快处理，谢谢配合!</string>
+    <string name = "text_more_suggestion_info_fail">发送失败，请重试！</string>
+    <string name = "text_more_suggestion_info_upload">正在上传....请稍后</string>
+    <string name = "text_more_suggestion_info_null">内容不能为空</string>
+    <string name = "text_identity">二代身份证</string>
+    <string name = "hint_jfpal_account">即付宝账号</string>
+    <string name = "hint_jfpal_account_english">Username</string>
+    <string name = "hint_user_info">身份信息</string>
+    <string name = "text_trans_type">交易类型:</string>
+    <string name = "text_trans_sales_slip_head">即付宝交易凭条</string>
+    <string name = "text_trans_sales_slip_method">即付宝手机支付终端</string>
+    <string name = "text_merchant_name">商户姓名:</string>
+    <string name = "text_pay_account">付款账号:</string>
+    <string name = "text_receive_pay_account">收款账号:</string>
+    <string name = "text_merchant_account">商户账号:</string>
+    <string name = "text_service_name">商品名称</string>
+    <string name = "text_jfpal_account">即付宝账户</string>
+    <string name = "text_jfpal_balance">账户余额:</string>
+    <string name = "text_jfpal_super_pay_card_history">历史银行卡</string>
+    <string name = "text_common_pay_method">交易号</string>
+    <string name = "text_transaction_success">交易成功</string>
+    <string name = "text_credit_card_info">信用卡信息</string>
+    <string name = "text_credit_card_holder_name">持卡人姓名</string>
+    <string name = "text_prepay_card_id">绑定卡卡号:</string>
+    <string name = "text_recv_bank_info">收款人账户信息</string>
+    <string name = "text_bank_info">银行信息</string>
+    <string name = "text_account_info">账户信息</string>
+    <string name = "text_contact_info">收货人信息</string>
+    <string name = "text_user_type">用户性质</string>
+    <string name = "text_agree_fill_user_info">我已阅读并同意《用户须知协议》</string>
+    <string name = "text_identity_type">证件类型</string>
+    <string name = "text_identity_number">证件号</string>
+    
+    <string name = "text_alipay_number_money">淘宝订单信息</string>
+    <string name = "text_alipay_number">请输入订单号</string>
+    <string name = "text_alipay_money">请输入交易金额</string>
+    
+    
+    <string name = "text_remember_password">记住登录密码</string>
+    <string name = "text_choose_rechage_amount">请选择充值面额</string>
+    <string name = "text_real_name">姓名</string>
+    <string name = "text_mobile_number">手机号</string>
+    <string name = "text_btc_balance">可提现余额</string>
+    <string name = "text_btc_balance_today">当日可提现余额(元)</string>
+    <string name = "text_recv_bank_name">收款银行</string>
+    <string name = "text_bank_distribute">收款银行支行</string>
+    <string name = "text_bank_province_city">开户行所在城市</string>
+    <string name = "text_bank_account">银行账户</string>
+    <string name = "text_transaction_amount">交易金额</string>
+    <string name = "text_account_amount">账户余额:</string>
+    <string name = "text_transaction_account">账户名称:</string>
+    <string name = "text_transaction_name">交易名称:</string>
+    <string name = "text_transaction_date">交易日期:</string>
+    <string name = "text_product_amount">金额:</string>
+    <string name = "text_product_fee">手续费:</string>
+    <string name = "text_product_total_amount">总金额:</string>
+    <string name = "text_transaction_status">交易状态:</string>
+    <string name = "text_transaction_type">支付方式:</string>
+    <string name = "text_transaction_detail_account">支付账号:</string>
+    <string name = "text_pay_pw">支付密码</string>
+    <string name = "text_pay_pw_please">请输入支付密码</string>
+	<string name = "text_pay_card_id">卡号</string>
+	<string name = "text_pay_card_balance">余额</string>
+	<string name = "text_param1">{0}</string>
+	<string name = "text_param2">{0} {1}</string>
+	<string name = "text_transfer_common">普通还款</string>
+	<string name = "text_transfer_fase">快速到账</string>
+	<string name = "text_repayment_last_day">还款日期</string>
+	<string name = "text_repayment_every_month">每月</string>
+	<string name = "text_available_balance">可用余额</string>
+	<string name = "text_my_property">我的资产(元)</string>
+	
+	<string name = "text_pay_bank_card">刷卡支付</string>
+	<string name = "text_pay_prepay_card">快捷支付</string>
+	<string name = "text_pay_temp_card">账户支付</string>
+	<string name = "text_pay_order_id">交易号: {0}</string>
+	<string name = "text_pay_balance">账户余额: {0}</string>
+	<string name = "text_pay_amount">交易金额: {0}</string>
+	<string name = "text_receiver">收款人: {0}</string>
+	<string name = "text_repay_online">快速还款</string>
+	<string name = "text_repay_offline">普通还款</string>
+	<string name = "text_jfpay_swapper">即付宝刷卡器</string>
+    <string name = "text_jfpay_swapper_price">售价:￥398</string>
+    <string name = "text_jfpay_swiper_status">设备状态: {0}</string>
+    <string name = "text_union_account">合并账户</string>
+    <string name = "text_upload_profile">持身份证拍照:</string>
+    <string name = "text_upload_identity_profile">身份证正面:</string>
+    <string name = "text_upload_identity_profile_reverse">身份证反面:</string>
+    <string name = "text_transaction_record_query">交易记录</string>
+    <string name = "text_credit_card_id">信用卡号</string>
+    <string name = "text_attention_1">免冠</string>
+    <string name = "text_attention_2">正面</string>
+    <string name = "text_attention_3">无镜</string>
+    <string name = "text_attention_4">顺光</string>
+    <string name = "text_attention_5">露额</string>
+    
+    
+    
+    <string name = "hint_sth_is_null">请输入{0}</string>
+    <string name = "hint_phone_number_error">输入的手机号码有误</string>
+    <string name = "hint_phone_number_length_error">输入的手机号码不足11位</string>
+    <string name = "hint_recommend_number_length_error">输入的推荐人账号不足11位</string>
+    
+    <string name = "text_password_is_visible">密码可见</string>
+    <string name = "text_agree_protocol">同意《即付宝服务协议》</string>
+    <string name = "text_agree_sub">同意</string>
+    <string name = "text_account">账号: {0}</string>
+    <string name = "text_balance">余额: {0}</string>
+    <string name = "text_special_hint">注:请认真填写信息,不可更改。</string>
+    <string name = "text_city">城市</string>
+    <string name = "text_type">类别</string>
+    <string name = "text_unit">单位</string>
+    <string name = "text_city_choose">选择缴费城市</string>
+    <string name = "text_type_choose">选择缴费类别</string>
+    <string name = "text_unit_choose">选择缴费单位</string>
+    <string name = "text_pub_wr">填写缴费信息</string>
+    <string name = "text_pub_hint">户号/销根号/账号/合同号</string>
+    <string name = "text_shanghai">上海</string>
+    <string name = "text_find_password">找回密码</string>
+    <string name = "text_find_password_content">如果该账户未进行实名认证,找回密码请拨打服务热线:{0}</string>
+    <string name = "text_fill_user_info_first">该账户未进行实名认证，无法进入福店，是否进行实名认证？</string>
+    <string name = "text_real_name_auth">实名认证</string>
+    <string name = "text_account1">账号</string>
+    <string name = "text_auto_detect">自动检测</string>
+    
+    <string name = "text_swiper_detecting">设备检测中</string>
+    <string name = "text_swiper_detect_error">未检测到刷卡器,\n点击帮助按钮查看原因。</string>
+    <string name = "text_swiper_not_plungin">未检测到刷卡器,\n请将其连接至手机音频口</string>
+    <string name = "text_swiper_please_swiper">磁条面向自己\n紧贴卡槽底部匀速刷过</string>
+    <string name = "text_swiper_please_swiper_light">指示灯熄灭即刷卡成功</string>
+    <string name = "text_swiper_timeout">刷卡超时,\n请重新再刷一次</string>
+    <string name = "text_six_bank_card_trans_password">6位银行卡交易密码</string>
+    <string name = "text_bank_card_trans_password_p">请输入银行卡密码</string>
+    <string name = "text_bank_card_trans_name_p">请输入转出卡的持卡人姓名</string>
+    <string name = "text_bank_card_trans_iden_p">请输入转出卡的持卡人身份证号码</string>
+    <string name = "text_user_guide">使用须知</string>
+    
+    
+    <string name="hint_info">提示信息</string>
+    <string name="msg_transaction_quit">是否取消本次交易?</string>
+    <string name="msg_service_call">是否要拨打客户服务电话?</string>
+    <string name="msg_app_quit">"确定退出系统吗?"</string>
+    <string name="msg_wait_to_get_code">正在获取短信校验码,请稍候...</string>
+    <string name="msg_wait_to_query_balance">正在查询账户余额,请稍候...</string>
+    <string name="msg_wait_to_modify_pwd">正在提交修改密码请求,请稍候...</string>
+    <string name="msg_wait_to_query">正在查询信息,请稍候...</string>
+    <string name="msg_wait_to_btc">正在提交提现申请,请稍候...</string>
+    <string name="msg_wait_to_query_cardinfo">正在查询卡信息,请稍候...</string>
+    <string name="msg_wait_to_unbind_card">正在解绑账户,请稍候...</string>
+    <string name="msg_wait_to_merge_card">正在合并账户,请稍候...</string>
+    <string name="msg_wait_to_get_amount">正在提交收款请求,请稍候...</string>
+    <string name="msg_wait_to_register">正在注册,请稍候...</string>
+    <string name="msg_wait_to_login">正在登录,请稍候...</string>
+    <string name="msg_wait_to_change_password">正在修改密码,请稍候...</string>
+    <string name="msg_wait_to_find_password">正在找回密码,请稍候...</string>
+    <string name="msg_wait_to_card_bind">正在绑定卡,请稍候...</string>
+    <string name="msg_wait_to_pay">正在支付,请稍候...</string>
+    <string name="msg_wait_to_load">正在加载数据,请稍候...</string>
+    <string name="msg_wait_to_check_guarantee">正在查询预订担保,请稍候...</string>
+    <string name="msg_wait_to_order">正在预订,请稍候...</string>
+    <string name="msg_wait_to_query_royalty">正在查询账户积分,请稍候...</string>
+    <string name="msg_wait_to_fill_userInfo">正在完善注册信息,请稍候...</string>
+    <string name="msg_wait_to_add_rightsOfMan">正在增加权益人,请稍候...</string>
+    <string name="msg_wait_to_delete">正在删除,请稍候...</string>
+   
+    
+    <string name="msg_please">请</string>
+    <string name="msg_please_waitfor_retry">请等待短信</string>
+    <string name="msg_please_waitfor">等待</string>
+    <string name="msg_second">秒</string>
+    <string name="msg_please_choose">请选择</string>
+    <string name="msg_error"></string>
+    <string name="msg_error_net_no_response">服务器无响应,请检查网络设置</string>
+    <string name="msg_error_net_failed">服务器响应异常</string>
+    <string name="msg_error_no_transaction_record">暂无记录</string>
+    <string name="msg_error_no_card">无绑定卡信息</string>
+    <string name="msg_error_format_province_city">省市格式不正确</string>
+     <string name="msg_error_public_utility_info_is_null">请选择缴费项目</string>
+    <string name="msg_error_agree_protocol_first">请先阅读并同意服务协议</string>
+    <string name="msg_error_reason_must_more_than_three_word">付款理由必须大于三个字</string>
+    <string name="msg_error_choose_type_first">请先选择缴费类别</string>
+    <string name="msg_error_recv_bank_account_not_match">两次输入的银行帐号不一致</string>
+    <string name="msg_error_password_not_match">两次输入的密码不一致</string>
+    <string name="msg_error_phoneNumber_not_match">两次输入的手机号码不一致</string>
+    <string name="msg_error_card_number_not_match">卡号长度不足16位</string>
+    <string name="msg_error_bank_pwd_not_match">输入的密码长度不正确</string>
+    <string name="msg_error_credit_card_not_support">不支持该信用卡</string>
+    <string name="msg_error_not_support_online">此信用卡不支持实时还款</string>
+    <string name="msg_error_not_support_btc">提现金额必须大于￥0.00</string>
+    <string name="msg_error_not_support_recharge">充值金额必须大于￥0.00</string>
+    <string name="msg_error_not_enough_balance">即付宝账户余额不足</string>
+    <string name="msg_error_not_support_funtion">暂不支持此功能</string>
+    <string name="msg_error_not_support_email">对不起，您的系统不支持邮件</string>
+    <string name="msg_error_password_length_less_than_six">密码长度不能小于6位</string>
+    <string name="msg_error_password_is_null">请输入密码</string>
+    <string name="msg_error_sign_first">请先签名</string> 
+    <string name="msg_error_sign_fail">请先重新签名</string> 
+    <string name="msg_error_info_lost">个人资料不全</string>
+    <string name="msg_error_email_format">电子邮件格式不正确</string>
+    <string name="msg_error_fill_userinfo_and_auth_first">请先完善用户信息并进行实名认证</string>
+    <string name="msg_error_fill_userinfo">请完成实名认证</string>
+    <string name="msg_error_qrcode_format_error">二维码格式不正确</string>
+    <string name="msg_error_order_cancel">用户取消订单支付</string>
+    <string name="msg_error_sdk_format_error">输入的参数格式不正确</string>
+    <string name="msg_error_not_support_pay">不支持支付</string>
+    <string name="msg_error_wap_used">您使用的是WAP网络,请切换到数据网络或打开wifi</string>
+    
+    <string name="msg_success_get_code">发送获取短信校验码请求成功!</string>
+    <string name="msg_success_modify_password">修改密码成功!</string>
+    <string name="msg_success_find_password">找回密码成功!</string>
+    <string name="msg_success_get_amount">收款成功!</string>
+    <string name="msg_success_wallet_register">注册成功!</string>
+    <string name="msg_success_card_bind">卡绑定成功!</string>
+    <string name="msg_success_card_unbind">卡解绑成功!</string>
+    <string name="msg_success_pay">支付成功!</string>
+    <string name="msg_success_business_to_cash">提现成功!</string>
+    <string name="msg_success_fill_userInfo">完善注册信息成功!</string>
+    <string name="msg_success_delete">删除成功!</string>
+    <string name="msg_success_not_need_to_pay">无需缴费</string>
+    <string name="msg_success_upload">上传成功</string>
+      
+	<!-- train -->
+	<string name = "title_train">火车票</string>
+	<string name = "train_city_depart">出发城市</string>
+	<string name = "train_city_arrive">到达城市</string>
+	<string name = "train_time_depart">出发日期</string>
+	<string name = "train_time_quantum">出发时段</string>
+	<string name = "train_type">车次类型</string>
+	<string name = "train_type_default">全部</string>
+	<string name = "title_contact_info">收件人信息</string>
+	<string name = "title_passenger_info">乘客列表</string>
+    <string name = "title_new_passenger">新增乘客信息</string>
+    <string name = "title_modify_passenger">修改乘客信息</string>
+    
+    <string name = "button_commit1">提交</string>
+    <string name = "button_add_passenger">新增乘客信息</string>
+    <string name = "button_query_history">历史</string>
+    <string name = "button_query_history_ok">完成</string>
+    
+    
+    <string name = "text_choose_identity_type">选择证件类型</string>
+    <string name = "text_male">男</string>
+    <string name = "text_female">女</string>
+    <string name = "text_passenger_number">已选人数{0}/{1}</string>
+    
+    <string name = "hint_sth_is_null1">请{0}</string>
+    <string name = "hint_input_passenger_name">输入乘客姓名</string>
+    <string name = "hint_input_passenger_mobileNo">输入乘客联系电话</string>
+    <string name = "hint_input_contact_name">输入收件人姓名</string>
+    <string name = "hint_input_contact_mobileNo">输入联系电话</string>
+    <string name = "hint_input_contact_postal">输入邮编</string>
+    <string name = "hint_input_contact_address">输入收件地址</string>
+	<string name = "hint_please_choose_passenger_first">请选择乘客信息</string>
+	<string name = "hint_please_choose_passenger_limit">乘客不能超过5人</string>
+    <string name = "msg_success_add_passenger">添加乘客信息成功</string>
+    <string name = "msg_success_modify_passenger">修改乘客信息成功</string>
+   
+	
+	<!-- flight resource -->
+	<string name = "title_flight">机票预订</string>
+	<string name = "button_query">查询</string>
+	
+	<string name="text_super_value_bunk">超值舱位 </string>
+    <string name="text_bunk_bunk">舱位　</string>
+    <string name="text_bunk_tickets">剩余　　</string>
+    <string name="text_bunk_price">价格</string>
+	<string name = "text_no_limit">不限制</string>
+	<string name="text_flight_warning">根据航空公司客规：70岁以上客人乘机前，请提前向机场出示三级以上医院开具的健康证明，谢谢</string>
+	<string name = "text_prev_day">前一天</string>
+	<string name = "text_next_day">后一天</string>
+	
+	<string name = "title_fill_passager_info">填写乘机人信息</string>
+	<string name = "title_fill_contact_info">填写行程单配送信息</string>
+	<string name = "title_choose_aircompany">选择航空公司</string>
+	<string name = "title_flight_bunk_choose">选择舱位</string>
+    <string name = "title_standard_bunk">标准舱位 </string>
+    <string name = "title_choose_city">选择城市</string>
+    
+    <string name="HINT_CONFIRM_TITLE">请确认信息:</string>
+    <string name="hint_flight_super_value_credits">*本次预订每张机票您需支付{0}元，并获得{1}积分。</string>
+    
+    <string name="help_super_value_bunk">帮助:\n1. 超值积分服务可以为您的旅程带来超值回报，您获得的超值积分可以用于支付电子钱包上各类消费、服务费用。\n2. 使用易生超值积分服务购买的机票仅可以联系9507108进行退改签，超值积分部分不予退还。\n3. 查询超值积分请登录钱包管理，余额查询。</string>
+	
+    
+    <!-- hotel -->
+    <string name="button_sort">筛选</string>
+    <string name="button_order">预订</string>
+    <string name="button_call_to_cansult">电话咨询</string>
+    <string name="button_finish">完成</string>
+    <string name="button_call">拨打客服电话</string>
+    
+    <string name="title_hotel_search">酒店搜索</string>
+    <string name="title_hotel_detail">酒店详情</string>
+    <string name="title_hotel_tel">酒店电话</string>
+    <string name="title_hotel_pay">酒店支付</string>
+    <string name="title_hotel_address">酒店地址</string>
+    <string name="title_hotel_traffic">交通</string>
+    <string name="title_hotel_equipment">酒店服务</string>
+    <string name="title_hotel_room_equipment">房间设施</string>
+    <string name="title_hotel_dinner">餐饮设施</string>
+    <string name="title_hotel_entertainment">康体娱乐</string>
+    <string name="title_hotel_conference">会议设施</string>
+    <string name="title_hotel_room_detail">酒店房型</string>
+    <string name="title_hotel_fill_order">填写订单</string>
+    <string name="title_hotel_order_info">订单信息</string>
+    <string name="title_hotel_choose_date">修改日期</string>
+    <string name="title_hotel_garantee">预订担保</string>
+    
+
+    
+    <string name="text_area">区域</string>
+    <string name="text_checkin">入住时间</string>
+    <string name="text_checkout">离店时间</string>
+    <string name="text_star">星级 </string>
+    <string name="text_price">价格 </string>
+    <string name="text_keyword">关键字 </string>
+    <string name="text_current_location">当前位置 </string>
+    <string name="text_query_result">查询结果</string>
+    <string name="text_order_id">订单号:</string>
+    <string name="text_order_amount">订单金额:</string>
+    <string name="text_order_info">您的订单已经成功提交，请记录订单号以便查询。我们会尽快确认您的订单，并将预订成功的确认信息发送到您的手机。当您到达酒店时，告知酒店前台预订时填写的入住人姓名，并出示有效证件即可办理入住。</string>
+    <string name="text_creditcard_expire_date">信用卡有效期</string>
+    <string name="text_book_by_tel">电话预订</string>
+    
+    <string name="hint_current_city">当前城市</string>
+    <string name="hint_no_limit">不限</string>
+    <string name="hint_choose_city">选择城市</string>
+    <string name="hint_choose_area">选择区域</string>
+    <string name="hint_input_contact">联系人</string>
+    <string name="hint_input_phone_number">联系电话</string>
+    <string name="hint_input_check_in_person">入住人</string>
+    <string name="hint_input_bank_name_to_loan_repay">选择收款银行名称</string>
+    <string name="hint_input_loan_account">输入借款帐号</string>
+    <string name="hint_input_loan_person_name">输入借款人姓名</string>
+    <string name="hint_mark_delete">是否删除该标记</string>
+    <string name="hint_hotel_searched">共搜索到附近酒店{0}家</string>
+    <string name="hint_hotel_added">共搜索到附近酒店{0}家，新增{1}家</string>
+    <string name="hint_current_location"> 当前位置：</string>
+    <string name="hint_order_request">预订要求\n\n</string>
+    <string name="hint_order_feedback">客户留言(选填)\n\n</string>
+    <string name="hint_input_card_owner">输入信用卡持卡人姓名</string>
+    <string name="hint_input_cardid">输入信用卡卡号</string>
+    <string name="hint_input_identity">请输入证件号</string>
+    <string name="hint_query_whether_update">检查到新版本,是否立即更新？</string>
+    <string name="hint_query_must_update">检查到新版本,请立即更新</string>
+    
+    <string name="msg_error_checkin_early_than_today">入住时间不能早于今天</string>
+    <string name="msg_error_checkout_early_than_checkin">离店时间不能早于入住时间</string>
+    <string name="msg_error_city_not_available">请选择城市</string>
+    <string name="msg_error_type_not_available">请选择类型</string>
+    <string name="msg_error_unit_not_available">请选择单位</string>
+    <string name="msg_error_check_in_is_null">请输入入住人</string>
+    <string name="msg_error_contact_is_null">请输入联系人</string>
+    <string name="msg_error_contact_phonenum_is_null">请输入联系电话</string>
+    <string name="msg_error_contact_phonenum_length">联系人电话长度小于11位</string>
+    <string name="msg_error_idcard_is_invalidated">请输入有效的身份证号码</string>
+    <string name="msg_error_creditcard_is_overdue">该信用卡已过期</string>
+    <string name="msg_error_creditcard_id_is_empty">请输入信用卡卡号</string>
+    <string name="msg_error_location_unavailable">无法定位您当前位置，请检查GPS是否开启</string>
+    <string name="msg_error_search_hotel_unavailable">对不起，无法获取酒店信息</string>
+    <string name="msg_error_card_id_is_empty">请输入信用卡卡号</string>
+    <string name="msg_error_card_owner_is_empty">请输入信用卡持卡人姓名</string>
+    <string name="msg_error_identity_is_empty">请输入证件号码</string>
+    
+    
+    <!-- product shopping -->
+    <string name="title_product_category">分类</string>
+    <string name="title_product_shopping">条码购物</string>
+    <string name="title_product_search">搜索</string>
+    <string name="title_product_shopping_cart">购物车</string>
+    <string name="title_product_detail">商品详情</string>
+    
+    <string name="text_product_price">{0}\n易生价: {1}\n市场价: {2}</string>
+    <string name="text_phone_number">手机号</string>
+	<string name="text_status">状 态</string>
+	<string name="text_bank_account_info">银行卡号:{0}\n帐户余额:{1}</string>
+	
+	<string name="button_category">分类</string>
+	<string name="button_price_asc">价格↑</string>
+    <string name="button_price_dsc">价格↓</string>
+    
+    <string name="msg_error_barcode_is_empty">请输入条形码</string>
+    <string name="msg_error_qrcode_is_empty">请输入二维码</string>
+    <string name="msg_error_scan_nothing">未扫描到任何信息</string>
+    <string name="msg_error_contact_name_is_empty">请输入收货人姓名</string>
+    <string name="msg_error_contact_address_is_empty">请输入收货人详细地址</string>
+    <string name="msg_error_contact_post_is_empty">请输入邮编</string>
+    <string name="msg_error_contact_phone_number_is_empty">请输入收货人手机号码</string>
+    <string name="msg_error_contact_box_is_full">收货人地址已满，请先删除再添加!</string>
+    <string name="msg_error_client_expired">此功能版本已过期，请升级客户端，谢谢使用。</string>
+    
+    <string name="help_shopping">帮助:\n1、请登录www.jfpal.com即付宝商城扫描商品条码购物支付。\n2、请将条码完全至于镜头下，确保清晰对焦。\n3. 如扫描失败，可手工输入条形码编号购物支付。\n4. 请仔细核对您要购买的商品，并选择您需要购买的商品件数。\n5. 为保证商品准确送达，请准确输入收货地址、收货人联系方式。\n6、付款成功，即付宝商城将在5个工作日内将您所购商品送到（偏远地区除外）。</string>
+    
+    
+    
+    <!-- common service -->
+    <string name="title_hnair_tourism">商旅助手</string>
+    <string name="title_golf">高 尔 夫</string>
+    <string name="title_highend_tourist">高端旅游</string>
+    <string name="title_place_query">场地搜索</string>
+    <string name="title_place_detail">场地详情</string>
+    <string name="title_place_price">价格信息</string>
+    <string name="title_order_guarantee">预订担保</string>
+    <string name="title_place_now_price">预定价格</string>
+    <string name="title_place_normal_price">平日价格</string>
+    <string name="title_place_weekend_price">假期价格</string>
+    <string name="title_place_address">俱乐部地址</string>
+    <string name="title_golf_pay">高尔夫支付</string>
+    
+    <string name="title_car_hire_query">租车行程</string>
+    <string name="title_car_hire_depature">出发时间</string>
+    <string name="title_car_hire_detail">选择车辆</string>
+    <string name="title_car_hire_tel">预订电话</string>
+    <string name="title_car_hire_fee">费用明细</string>
+ 	<string name="title_car_hire_pay">租车支付</string>
+    
+    <string name="title_yacht_query">游艇搜索</string>
+    <string name="title_yacht_detail">游艇详情</string>
+    <string name="title_yacht_tel">预订电话</string>
+    <string name="title_yacht_address">游艇地址</string>
+    
+    <string name="title_helicopter_query">直升机搜索</string>
+    <string name="title_helicopter_detail">直升机详情</string>
+    <string name="title_helicopter_tel">预订电话</string>
+    <string name="title_helicopter_address">直升机地址</string>
+    
+    <string name="title_business_flight_query">公务机搜索</string>
+    <string name="title_business_flight_detail">公务机详情</string>
+    <string name="title_business_flight_tel">预订电话</string>
+    <string name="title_business_flight_address">公务机地址</string>
+    
+    <string name="title_highend_tourist_query">旅行搜索</string>
+    <string name="title_highend_tourist_detail">旅行详情</string>
+    <string name="title_highend_tourist_info">详细信息</string>
+    <string name="title_highend_tourist_start_time">出发时间</string>
+    
+    
+    <string name="title_yacht">游艇</string>    
+    <string name="title_car_hire">租车</string>   
+    <string name="title_helicopter">直升机</string>   
+    <string name="title_business_flight">公务机</string>
+    
+    <string name="button_hours_rental">时租</string>
+    <string name="button_days_rental">日租</string>
+    
+    <string name="text_golf_date">开球日期 </string>
+    <string name="text_golf_time">开球时间 </string>
+    <string name="text_golf_person_number">开球人数 </string>
+    <string name="text_golf_hour">时:</string>
+    <string name="text_golf_minutes">分</string>
+    
+    <string name="text_car_rental_depature_date">出发日期 </string>
+    <string name="text_car_rental_depature_time">出发时间 </string>
+    <string name="text_car_rental_method">用车方式 </string>
+    <string name="text_car_rental_hours">用车时间 </string>
+    <string name="text_car_rental_departure_pos">出发地址 </string>
+    <string name="text_day">天</string>
+    <string name="text_hour">小时</string>
+    <string name="text_car_rental_fee">车辆租金 </string>
+    <string name="text_car_rental_price">车型单价 </string>
+    <string name="text_car_rental_peroid">租车时长 </string>
+    <string name="text_car_rental_driver_fee">驾驶员服务费 </string>
+    <string name="text_car_rental_other_fee">其他费用 </string>
+    <string name="text_car_rental_night_fee">夜间行车服务费 </string>
+    <string name="text_car_rental_total_fee">合计预订金额 </string>
+    <string name="text_car_rental_pay_fee">预收金额 </string>
+    <string name="text_car_rental_amount">交易金额:</string>
+    
+    <string name="msg_error_departure_date_early_than_tody">出发日期不能早于今天</string>
+    <string name="msg_error_departure_date_is_null">请输入出发日期</string>
+    <string name="msg_error_departure_position_is_null">请输入出发地址</string>
+    
+    <string name="hint_input_car_rental_departure_position">输入出发地址</string>
+    <string name="hint_car_rental_hours_expense">包含{0}公里，超出部分需额外收费 </string>
+    <string name="hint_car_rental_days_expense">每日包含8小时使用时长、100公里路程，超出部分将额外收费</string>
+    <string name="hint_car_rental_fee">其中的1/3金额为您在用车过程中，有可能会产生路桥费、停车费、及因临时变更服务而产生的额外费用。如未有相关费用产生，则在用车服务结束后全部退还押金 </string>
+    
+    <string name="hint_description_car_rental">受理时间:周一至周五：9：00-16:30，节假日暂不受理该业务。</string>
+    <string name="hint_description_golf">受理时间：周一至周五：9：00-16:30，节假日暂不受理该业务。</string>
+    
+    <!-- rate -->
+    <string name="title_exchange_rate">汇率展示</string>
+    
+    <string name="text_tonghui_money_type">币种</string>
+	<string name="text_tonghui_buy_price">买入价</string>
+	<string name="text_tonghui_sell_price">卖出价</string>
+	
+	<string name = "button_tonghui">通汇</string>
+    <string name = "button_boc">中行</string>
+    <string name = "button_icbc">工行</string>
+    <string name="button_refresh">刷新</string>
+    
+    
+    <!-- credit card helper -->
+    <string name = "button_opened">已开通</string>
+    <string name = "button_not_open">未开通</string>
+    
+    <string name = "title_creditcard_helper">账单、额度、积分查询</string>
+    <string name = "text_title">使用您在银行预留的手机号，通过短信，查询当前可用额度。本期还款金额等信息。一键搞定。（注：所有信息均由银行提供，即付宝不记录任何个人信息。）</string>
+    <string name = "text_please_choose_bank">请选择银行</string>
+    <string name = "text_hint_title">必须使用当前账号方可查询相关信息</string>
+    <string name = "hint_input_bank_card_id_last_four_bit">银行卡卡号后四位</string>
+    <string name = "hint_input_bank_card_id">银行卡卡号</string>
+    <string name = "hint_input_identity_last_six_bit">身份证号后六位</string>
+    <string name = "hint_input_sms_password">短信服务密码</string>
+    <string name = "hint_if_opened">是否开通短信银行功能?</string>
+    <string name = "msg_error_id_length">输入的长度不正确</string>
+    <string name = "hint_description_card_assistant">1、请使用您在银行预留的手机号，查询信用卡当前信息（需选择发送短信）。\n2、因银行原因，各行可查询的服务内容不相同。</string>
+    
+    
+    <string name = "title_tongdui_pay">通兑支付</string>
+    
+    
+   
+    
+    <!-- 彩票 -->
+    <string name = "title_lottery1">即彩票</string>
+    
+    
+        <!-- coupon -->
+	<string name="coupon_hello">Hello World, DingdingActivity!</string>
+    <string name="coupon_app_name">丁丁优惠</string>
+    <string name="coupon_result">查询结果</string>
+    <string name="coupon_city">城市</string>
+    <string name="coupon_city_select">请选择城市</string>
+    <string name="coupon_nodata">由于网络原因数据未正确加载，请手动选择城市</string>
+    <string name="coupon_current_city">当前位置</string>
+    <string name="coupon_city_list">城市列表</string>
+    <string name="coupon_area">区域</string>
+    <string name="coupon_area_select">请选择区域</string>
+    <string name="coupon_circle">商圈</string>
+    <string name="coupon_parent">分类</string>
+    <string name="coupon_son">二级分类</string>
+    <string name="coupon_parent_select">请选择分类</string>
+    <string name="coupon_provider">此服务由丁丁优惠提供</string>
+    <string name="coupon_not_limited">不限</string>
+    <string name="coupon_search_button">查询</string>
+    <string name="coupon_checknet">请检查网络</string>
+    <string name="coupon_use">人使用</string>
+    <string name="coupon_merchant_title">网点查询</string>
+    <string name="coupon_merchant">使用网点：(</string>
+    <string name="coupon_home">家)</string>
+    <string name="coupon_progress_tip">正在加载数据，请稍候...</string>
+    <string name="coupon_load_data">加载更多数据...</string>
+    <string name="coupon_loading">正在加载...</string>
+    <string name="coupon_coupondetails">优惠券信息</string>
+    <string name="coupon_coupondetails2">优惠券详情</string>
+    <string name="coupon_statement">除此特殊说明外，本优惠不能与其他优惠同时享受；\n
+        本优惠最终解释权归商家所有，如有疑问请与商家联系。\n
+        提示：为了使您得到更好的服务，请在进店时出示本券。</string>
+    <string name="coupon_showInfo">地址、电话、交通、营业时间及其他</string>
+    <string name="coupon_merchantList">站点列表</string>
+    <string name="coupon_call">拨打</string>
+    <string name="coupon_view_map">查看地图</string>
+    <string name="coupon_other">交通、营业时间及其他</string>
+    <string name="coupon_query">查询</string>
+    <string name="coupon_bhours">营业时间</string>
+    <string name="coupon_desc">描述</string>
+    <string name="coupon_http">访问网址</string>
+    <string name="coupon_busInfo">交通线路</string>
+    <string name="coupon_payment">支持刷卡</string>
+    <string name="coupon_characteristic">特色</string>
+    <string name="coupon_afternoon_tea">下午茶供应</string>
+    <string name="coupon_atmosphere">氛围</string>
+    <string name="coupon_valid">有效期: </string>
+    <string name="coupon_timeout">网络超时，请重新加载: </string>
+    <string name="coupon_show">展示即可使用哦 </string>
+    <string name="coupon_outpace">超过 </string>
+    <string name="coupon_km">公里 </string>
+    <string name="coupon_checkLocation">无法定位当前位置，请确定GPS或者网络是否开启 </string>
+    <string name="coupon_check_currentLocation">正在定位当前城市，请稍候... </string>
+    <string name="coupon_check_currentLocation_error">无法定位当前位置，请确定GPS或者网络是否开启并手动选择城市 </string>
+    <string name="coupon_end_page">已经是最后一条优惠信息！ </string>
+    <string name="coupon_tel">电话： </string>
+    <string name="coupon_address">地址： </string>
+    
+     <string name="train_str_myorder">我的订单 </string>
+     <string name="train_last_str_myorder">近一个月订单 </string>
+     <string name="train_str_faildata">暂无相应数据 </string>
+     
+     
+      <string name = "check_chinese_not_match">请输入正确的中文姓名</string>
+      
+      <string name="title_my_swiper">我的刷卡器</string>
+      
+       <string name="msg_error_alipaycode_is_empty">支付宝账号不能为空</string>
+        <string name="msg_error_alpaycode_check_is_empty">确认支付宝账号不能为空</string>
+        <string name="msg_error_alpaycode_not_match">两次输入支付宝账号不匹配</string>
+         <string name="msg_error_alipaycode">支付宝账号有误</string>
+         <string name="msg_input_alipaycode">请输入支付宝账号</string>
+          <string name="msg_input_alipaycode_check">请确认支付宝账号</string>	
+          <string name = "hint_recharge_account">充值账号</string>
+          <!-- v3 -->
+          <string name = "text_login_register">注册</string>
+          <string name = "text_login_find_password">忘记密码 ?</string>
+          <string name = "welcome_use_jfpal">欢迎使用即付宝</string>
+          <string name = "text_user_login">点击登录</string>
+          <string name = "text_title_jfpal_name">即付宝</string>
+          <!-- 微店 -->
+          <string name = "hint_tinyshop_name_please">输入微店名称</string>
+          <string name = "text_tinyshop_dialog_message">  由于您的账号未经实名认证，故暂时无法进行正常收款，通过实名认证后，方可进行有效交易。</string>
+          <string name="text_tinyshop_i_know">我知道了</string>
+          <string name="text_my_tiny_shop">我的福店</string>
+          <string name="text_settings_other">其他</string>
+          
+          
+          <string name="text_portrait_upload_success">上传大头贴成功</string>
+          <string name="text_my_drawing_act">我的提款账户</string>
+          <string name="text_prepaid_card">预付卡管理</string>
+          <string name="text_safe_exit">安全退出</string>
+          <string name="title_me">我</string>
+          <string name="text_old_password">旧密码</string>
+          <string name="text_old_password_input">请输入旧密码</string>
+          <string name="text_new_password">新密码</string>
+          <string name="text_new_password_input">请输入新密码</string>
+          <string name="text_retype_input">再次输入</string>
+          <string name="text_new_password_retype_input">再次输入新密码</string>
+          <string name="text_password_same">提示：登录密码与交易密码一致。</string>
+          <string name="text_get_validate_code">发送验证码</string>
+          <string name="text_input_validate_code">输入验证码</string>
+          <string name="text_check_example">点击这里查看教程</string>
+          <string name="text_check_example_url">《如何拍照》</string>
+          <string name="title_check_example_url">如何拍照</string>
+          <string name="text_button_auth_again">重新认证</string>
+          <string name="text_button_auth_urgent">我要加急</string>
+          <string name="text_personal_user">个人用户</string>
+          <string name="text_filluser_email">邮箱</string>
+          <string name="text_filluser_email_input_please">请输入有效邮箱</string>
+          <string name="text_i_want_auth_urgent">我要加急认证 </string>
+          <string name="text_i_want_auth_urgent_content">选择加急认证可以快速完成审核，需要支付5元服务费。</string>
+          <string name="text_how_take_photo1">拍自己的上半身和手持身份证照片,而且背景最好为白色,不化妆。</string>
+          <string name="text_how_take_photo2">身份证所有信息必须清晰可见。</string>
+          
+          <string name="text_auth_fail_alert">身份证上的文字看不清楚，无法通过。</string>
+          <string name="text_auth_fail">认证失败</string>
+          
+          <string name="text_i_know">我了解了</string>
+          <string name="text_about_us">关于我们</string>
+          <string name="text_confirm_exit">再按一次退出程序</string>
+          <string name="button_back_to_main">返回首页</string>
+          <string name="text_user_info_confirm">友情提示：在实名认证中若由于姓名或身份证号码填写错误而未审核通过，请联系客服400-1166-668修改您的姓名或身份证号码。</string>
+          
+</resources>

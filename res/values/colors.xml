@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="BLACK">#FF000000</color>
+    <color name="WHITE">#FFFFFFFF</color>
+    <color name="GRAY_DV">#ffcccccc</color>
+    <color name="GRAY_FRAME">#ff999999</color>
+    <color name="BLUE_BUTTON">#ff0000FF</color>
+    <color name="FONT_BLUE">#FF1C7EFB</color>
+    <color name="RED">#FF8B4C4C</color>
+    <color name="GRAY6">#FF666666</color>
+    <color name="ORANGE">#90F4D79C</color>
+    <color name="TRANSPRENT">#00000000</color>
+    
+    <color name="ECRU70">#B4F7E3C0</color>
+    <color name="hotel_list_item">#e6e6e6</color>
+    <color name="item_color">#cccccc</color>
+    
+    <color name="viewfinder_frame">#ff000000</color>
+  	<color name="viewfinder_laser">#ffff0000</color>
+  	<color name="viewfinder_mask">#60000000</color>
+  	<color name="result_view">#b0000000</color>
+  	<color name="possible_result_points">#c0ffff00</color>
+  	
+  	<color name="TRANSPARENT_WHITE">#60ffffff</color>
+  	<color name="PRICE">#ff6600</color>
+  	
+  	<color name="YELLOW_BG">#fff3c040</color>
+  	<color name="BLUE_BG">#ff2b61dc</color>
+  	<color name="FONT_GRAY_NOTICE">#808080</color>
+  	<color name="FONT_GRAY_BLACK_NOTICE">#1f1f1f</color>
+  	<color name="FONT_RED">#fffe6d6e</color>
+  	<color name="FONT_BROWN">#ff833b17</color>
+  	<color name="FONT_PINK1">#ffddccff</color>
+  	<color name="FONT_DARK_PINK1">#ff887faf</color>
+  	<color name="FONT_PINK">#ffffffff</color>
+  	<color name="FONT_DARK_PINK">#ffffffff</color>
+  	<color name="FONT_GREEN">#ff81f3e1</color>
+  	<color name="FONT_DARK_PURPLE">#ff3e2c5c</color>
+  	<color name="FONT_LIGHT_PURPLE">#ff84779b</color>
+  	<color name="FONT_LIGHT_YELLOW">#fffac92d</color>
+  	<color name="FONT_DARK_YELLOW">#fffc984d</color>
+  	
+  	<color name="SHARPE_END_COLOR">#ff9f9f9f</color>
+  	<color name="SHARPE_START_COLOR">#ffe1e1e1</color>
+  	
+  	<color name="PASSWORD_WEAK">#ffee3f3f</color>
+  	<color name="PASSWORD_MIDDLE">#fff0ca45</color>
+  	<color name="PASSWORD_STRONG">#ff2ae22e</color>
+  	<color name="PASSWORD_DISABLE">#80000000</color>
+  	
+  	<color name="TRAIN_INFO_ITME_NOTICKET">#b4b4b4</color>
+  	
+  	<color name="ITEM_DIVIDER">#d9d9d9</color>
+  	<color name="FONT_GRAY">#b9b9b9</color>
+  	<color name="FONT_GRAY_BLACK">#2c3239</color>
+  	<color name="BUTTON_RED">#f83a3a</color>
+  	<color name="FONT_LIGHT_BLUE">#3acde7</color>
+  	<color name="FONT_DARK_BLUE">#117ffa</color>
+  	<color name="FONT_ACCCOUNT_NAME">#005986</color>
+  	<color name="FONT_ACCCOUNT_BALANCE">#7F7F7F</color>
+  	<color name="FONT_ACCCOUNT_AVAILABLE_BALANCE">#ff720b</color>
+  	<color name="FONT_ACCCOUNT_AVAILABLE_BALANCE_BG">#ccedc0</color>
+  	<color name="FONT_ACCCOUNT_ITEM">#333333</color>
+  	<color name="FONT_ACCCOUNT_ITEM_BG">#e6e6e6</color>
+  	<color name="FONT_ACCCOUNT_SAFE_EXIT">#E45D47</color>
+  	<color name="BG_AUTH_CODE">#0d82fa</color>
+  	<color name="BG_AUTH_CODE_A">#91acc8</color>
+  	<color name="FONT_AUTH_CODE_BLUE">#3dade8</color>
+  	<color name="BG_BTN_GREEN">#3faf18</color>
+  	<color name="BG_BTN_GREEN_A">#2d7b11</color>
+  	<color name="FONT_CHECK_EXAMPLE_URL">#0076ff</color>
+  	<color name="FONT_AUTH_SUCCESS">#424446</color>
+  	<color name="FONT_AUTH_PROCESS">#3DADE8</color>
+  	<color name="FONT_AUTH_CONTENT">#929292</color>
+  	<color name="FONT_VALIDATE_CODE_BG">#91ACC8</color>
+  	<color name="FONT_TRANS_DETAIL">#807F7E</color>
+  	
+  	<color name="ACTIVITY_BG_USER_INSTRUCTION">#99000000</color>  
+  	
+  	<color name="webview_navigation_top_bar">#c3c8d1</color>
+  	
+</resources>
