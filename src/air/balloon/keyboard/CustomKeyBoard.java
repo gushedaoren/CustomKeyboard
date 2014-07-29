@@ -17,6 +17,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.support.v4.view.ViewPager;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.View.OnClickListener;
@@ -109,7 +110,26 @@ public class CustomKeyBoard extends View {
 
 		switchView(0);
 		
-		
+		et_password.setOnTouchListener(new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				// TODO Auto-generated method stub
+				hideKeyboard();
+				switch (event.getAction()) {
+				case MotionEvent.ACTION_DOWN:
+					
+					showKeyboard(et_password);
+					
+					break;
+
+				default:
+					break;
+				}
+				
+				return false;
+			}
+		});
 		
 	    
 	}
